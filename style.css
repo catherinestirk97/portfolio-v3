@@ -220,3 +220,7 @@ span {
     opacity:0.7;
     cursor: pointer;
 }
+
+.section-three h2 {
+    padding-bottom:0;
+}
