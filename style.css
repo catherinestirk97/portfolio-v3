@@ -133,7 +133,7 @@ h2 {
 
 }
 
-.about-me__strengths span {
+span {
     color:#008080;
 }
 
@@ -199,4 +199,24 @@ h2 {
 .project__link {
     text-decoration:none;
     color:inherit;
+}
+
+.last-project {
+    padding-bottom:2rem;
+}
+
+.section-four p{
+   text-align:center;
+   padding-bottom:2rem;
+}
+
+.contact-icon {
+    color:#dbae37;
+    font-size:2rem;
+    padding: 0.75rem 1rem;
+}
+
+.contact-icon:hover {
+    opacity:0.7;
+    cursor: pointer;
 }
