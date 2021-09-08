@@ -119,6 +119,12 @@ h2 {
     margin-top:1rem;
 }
 
+.about-me__strengths .image-one {
+    padding:0;
+    margin-top:0;
+}
+
+
 
 .about-me__strengths h3 {
     font-family: "Fraunces";
@@ -161,6 +167,21 @@ h2 {
     padding-bottom:1rem;
 }
 
+.cv__button {
+    padding:0.75rem 2.5rem;
+    margin:0 0.75rem;
+    margin-top:0.75rem;
+    border-radius: 50px;
+    border:none;
+    background-image: linear-gradient(#dbae37, #FBC740);
+    font-family: inherit;
+}
+
+.cv__button a {
+    text-decoration:none;
+    color:inherit;
+}
+
 .project__button {
     padding:0.75rem 2.5rem;
     margin:0 0.75rem;
@@ -170,7 +191,7 @@ h2 {
     font-family: inherit;
 }
 
-.project__button:hover {
+.project__button:hover, .cv__button:hover {
     cursor:pointer;
     opacity:0.6;
 }
