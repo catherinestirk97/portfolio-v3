@@ -23,6 +23,22 @@ body {
     color: #302f2f;
 }
 
+.svg-div {
+    height: 50px; 
+    overflow: hidden;
+     margin-top:-18px;
+}
+
+.svg-wave {
+    height: 100%; 
+    width: 100%;
+}
+
+.svg-wave-path {
+    stroke: none;
+    fill: white;
+}
+
 .section-one {
     height: 30vh;
     text-align: center;
